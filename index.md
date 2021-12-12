@@ -18,6 +18,7 @@ const int j = a + 10;     // works fine
 
 a++;    // this leads to Compile time error   
 }
+
 ---
 If we try to change its value later, then C++ compiler will raise an error as below:
 
@@ -33,7 +34,7 @@ If we try to change its value later, then C++ compiler will raise an error as be
 
 ## Constant Pointers
 Just like constant variable, the value of constant pointer is initialized at the time of declaration and once declared then we can’t change the pointer variable.
-###Usage:
+### Usage:
 if we want a pointer variable to always point to the same variable, useful where you want a storage that can be changed in value but not moved in memory.
 ### Ex:
 
